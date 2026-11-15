@@ -1,0 +1,31 @@
+{
+  "custom_commands": {
+    "open youtube": {
+      "action": "open_url",
+      "url": "https://www.youtube.com",
+      "response": "Opening YouTube for you!"
+    },
+    "open github": {
+      "action": "open_url",
+      "url": "https://www.github.com",
+      "response": "Opening GitHub!"
+    },
+    "open gmail": {
+      "action": "open_url",
+      "url": "https://mail.google.com",
+      "response": "Opening Gmail!"
+    },
+    "open stack overflow": {
+      "action": "open_url",
+      "url": "https://stackoverflow.com",
+      "response": "Opening Stack Overflow!"
+    },
+    "my name is": {
+      "action": "greeting",
+      "response": "Nice to meet you!"
+    }
+  },
+  "wake_word": "jarvis",
+  "assistant_name": "Jarvis",
+  "default_language": "en-US"
+}
